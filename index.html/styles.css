@@ -1,0 +1,154 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+.logo {
+  height: 60px;
+  width: 80px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header h1 {
+  font-family: cursive;
+}
+.prism-title {
+  padding-left: 100px;
+}
+.header-right {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  margin: 20px;
+}
+
+.try {
+  font-family: "Tahoma", Sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.3em;
+  fill: #ffffffed;
+  color: black;
+  background-color: white;
+  border-radius: 0px 0px 0px 0px;
+  width: 250px;
+}
+
+.programs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.training,
+.training-2,
+.training-3 {
+  width: 300px;
+  height: 400px;
+}
+.program-1,
+.program-2,
+.program-3 {
+  text-align: center;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e5e7eb;
+  padding: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+.quote em {
+  font-size: 36px;
+  font-weight: 100;
+  color: #1f2937;
+}
+.quote p {
+  font-weight: bolder;
+  font-size: 24px;
+  color: #1f2937;
+}
+
+.coaches {
+  background-color: white;
+  color: black;
+}
+.coaches h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.coachlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.eric-profile,
+.dan-profile,
+.wonjun-profile {
+  text-align: center;
+}
+
+.wonjun1,
+.eric1,
+.dan1 {
+  width: 200px;
+  height: 200px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-instagram {
+  background: purple;
+  color: white;
+}
+.fa-youtube {
+  background: red;
+  color: white;
+}
+.block {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.footer {
+  color: white;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
