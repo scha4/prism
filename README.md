@@ -1,2 +1,0 @@
-# prism
-basketball training website
